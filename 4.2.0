@@ -1,0 +1,173 @@
+Collecting jupyter
+  Downloading jupyter-1.1.1-py2.py3-none-any.whl (2.7 kB)
+Requirement already satisfied: nbformat in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (5.10.4)
+Collecting notebook
+  Downloading notebook-7.4.5-py3-none-any.whl (14.3 MB)
+     ---------------------------------------- 14.3/14.3 MB 4.9 MB/s eta 0:00:00
+Collecting jupyter-console
+  Downloading jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+Collecting nbconvert
+  Downloading nbconvert-7.16.6-py3-none-any.whl (258 kB)
+     -------------------------------------- 258.5/258.5 kB 7.8 MB/s eta 0:00:00
+Requirement already satisfied: ipykernel in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyter) (6.30.1)
+Collecting ipywidgets
+  Downloading ipywidgets-8.1.7-py3-none-any.whl (139 kB)
+     -------------------------------------- 139.8/139.8 kB 8.6 MB/s eta 0:00:00
+Collecting jupyterlab
+  Downloading jupyterlab-4.4.6-py3-none-any.whl (12.3 MB)
+     ---------------------------------------- 12.3/12.3 MB 3.6 MB/s eta 0:00:00
+Requirement already satisfied: fastjsonschema>=2.15 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from nbformat) (2.21.2)
+Requirement already satisfied: jsonschema>=2.6 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from nbformat) (4.25.1)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from nbformat) (5.8.1)
+Requirement already satisfied: traitlets>=5.1 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from nbformat) (5.14.3)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jsonschema>=2.6->nbformat) (25.3.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jsonschema>=2.6->nbformat) (2025.4.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jsonschema>=2.6->nbformat) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jsonschema>=2.6->nbformat) (0.27.0)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (4.3.8)
+Requirement already satisfied: pywin32>=300 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->nbformat) (311)
+Requirement already satisfied: comm>=0.1.1 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (0.2.3)
+Requirement already satisfied: debugpy>=1.6.5 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (1.8.16)
+Requirement already satisfied: ipython>=7.23.1 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (9.4.0)
+Requirement already satisfied: jupyter-client>=8.0.0 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (8.6.3)
+Requirement already satisfied: matplotlib-inline>=0.1 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (0.1.7)
+Requirement already satisfied: nest-asyncio>=1.4 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (1.6.0)
+Requirement already satisfied: packaging>=22 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (25.0)
+Requirement already satisfied: psutil>=5.7 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (7.0.0)
+Requirement already satisfied: pyzmq>=25 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (27.0.1)
+Requirement already satisfied: tornado>=6.2 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipykernel->jupyter) (6.5.2)
+Collecting widgetsnbextension~=4.0.14
+  Downloading widgetsnbextension-4.0.14-py3-none-any.whl (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 4.8 MB/s eta 0:00:00
+Collecting jupyterlab_widgets~=3.0.15
+  Downloading jupyterlab_widgets-3.0.15-py3-none-any.whl (216 kB)
+     -------------------------------------- 216.6/216.6 kB 4.4 MB/s eta 0:00:00
+Requirement already satisfied: prompt-toolkit>=3.0.30 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyter-console->jupyter) (3.0.51)
+Requirement already satisfied: pygments in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyter-console->jupyter) (2.19.2)
+Collecting async-lru>=1.0.0
+  Downloading async_lru-2.0.5-py3-none-any.whl (6.1 kB)
+Collecting httpx<1,>=0.25.0
+  Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Collecting jinja2>=3.0.3
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting jupyter-lsp>=2.0.0
+  Downloading jupyter_lsp-2.2.6-py3-none-any.whl (69 kB)
+     ---------------------------------------- 69.4/69.4 kB 3.7 MB/s eta 0:00:00
+Collecting jupyter-server<3,>=2.4.0
+  Downloading jupyter_server-2.17.0-py3-none-any.whl (388 kB)
+     -------------------------------------- 388.2/388.2 kB 4.0 MB/s eta 0:00:00
+Collecting jupyterlab-server<3,>=2.27.1
+  Downloading jupyterlab_server-2.27.3-py3-none-any.whl (59 kB)
+     ---------------------------------------- 59.7/59.7 kB 3.3 MB/s eta 0:00:00
+Collecting notebook-shim>=0.2
+  Downloading notebook_shim-0.2.4-py3-none-any.whl (13 kB)
+Requirement already satisfied: setuptools>=41.1.0 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyterlab->jupyter) (65.5.0)
+Requirement already satisfied: beautifulsoup4 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from nbconvert->jupyter) (4.13.4)
+Collecting bleach[css]!=5.0.0
+  Downloading bleach-6.2.0-py3-none-any.whl (163 kB)
+     -------------------------------------- 163.4/163.4 kB 3.3 MB/s eta 0:00:00
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+Collecting markupsafe>=2.0
+  Using cached MarkupSafe-3.0.2-cp311-cp311-win_amd64.whl (15 kB)
+Collecting mistune<4,>=2.0.3
+  Downloading mistune-3.1.3-py3-none-any.whl (53 kB)
+     ---------------------------------------- 53.4/53.4 kB 2.7 MB/s eta 0:00:00
+Collecting nbclient>=0.5.0
+  Downloading nbclient-0.10.2-py3-none-any.whl (25 kB)
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting tinycss2<1.5,>=1.1.0
+  Downloading tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Collecting anyio
+  Using cached anyio-4.10.0-py3-none-any.whl (107 kB)
+Requirement already satisfied: certifi in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from httpx<1,>=0.25.0->jupyterlab->jupyter) (2025.8.3)
+Collecting httpcore==1.*
+  Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Requirement already satisfied: idna in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from httpx<1,>=0.25.0->jupyterlab->jupyter) (3.10)
+Collecting h11>=0.16
+  Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Requirement already satisfied: colorama in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.4.6)
+Requirement already satisfied: decorator in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (5.2.1)
+Requirement already satisfied: ipython-pygments-lexers in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (1.1.1)
+Requirement already satisfied: jedi>=0.16 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.19.2)
+Requirement already satisfied: stack_data in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.6.3)
+Requirement already satisfied: typing_extensions>=4.6 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (4.14.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyter-client>=8.0.0->ipykernel->jupyter) (2.9.0.post0)
+Collecting argon2-cffi>=21.1
+  Downloading argon2_cffi-25.1.0-py3-none-any.whl (14 kB)
+Collecting jupyter-events>=0.11.0
+  Downloading jupyter_events-0.12.0-py3-none-any.whl (19 kB)
+Collecting jupyter-server-terminals>=0.4.4
+  Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl (13 kB)
+Collecting overrides>=5.0
+  Using cached overrides-7.7.0-py3-none-any.whl (17 kB)
+Collecting prometheus-client>=0.9
+  Downloading prometheus_client-0.22.1-py3-none-any.whl (58 kB)
+     ---------------------------------------- 58.7/58.7 kB 3.2 MB/s eta 0:00:00
+Collecting pywinpty>=2.0.1
+  Downloading pywinpty-3.0.0-cp311-cp311-win_amd64.whl (2.1 MB)
+     ---------------------------------------- 2.1/2.1 MB 3.5 MB/s eta 0:00:00
+Collecting send2trash>=1.8.2
+  Downloading Send2Trash-1.8.3-py3-none-any.whl (18 kB)
+Collecting terminado>=0.8.3
+  Downloading terminado-0.18.1-py3-none-any.whl (14 kB)
+Collecting websocket-client>=1.7
+  Using cached websocket_client-1.8.0-py3-none-any.whl (58 kB)
+Collecting babel>=2.10
+  Downloading babel-2.17.0-py3-none-any.whl (10.2 MB)
+     ---------------------------------------- 10.2/10.2 MB 4.2 MB/s eta 0:00:00
+Collecting json5>=0.9.0
+  Downloading json5-0.12.1-py3-none-any.whl (36 kB)
+Requirement already satisfied: requests>=2.31 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (2.32.5)
+Requirement already satisfied: wcwidth in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from prompt-toolkit>=3.0.30->jupyter-console->jupyter) (0.2.13)
+Requirement already satisfied: soupsieve>1.2 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from beautifulsoup4->nbconvert->jupyter) (2.7)
+Collecting sniffio>=1.1
+  Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Collecting argon2-cffi-bindings
+  Downloading argon2_cffi_bindings-25.1.0-cp39-abi3-win_amd64.whl (31 kB)
+Requirement already satisfied: parso<0.9.0,>=0.8.4 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyter) (0.8.4)
+Collecting python-json-logger>=2.0.4
+  Downloading python_json_logger-3.3.0-py3-none-any.whl (15 kB)
+Collecting pyyaml>=5.3
+  Using cached PyYAML-6.0.2-cp311-cp311-win_amd64.whl (161 kB)
+Collecting rfc3339-validator
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Collecting rfc3986-validator>=0.1.1
+  Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+Requirement already satisfied: six>=1.5 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from python-dateutil>=2.8.2->jupyter-client>=8.0.0->ipykernel->jupyter) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (3.4.3)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (2.5.0)
+Requirement already satisfied: executing>=1.2.0 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from stack_data->ipython>=7.23.1->ipykernel->jupyter) (2.2.0)
+Requirement already satisfied: asttokens>=2.1.0 in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from stack_data->ipython>=7.23.1->ipykernel->jupyter) (3.0.0)
+Requirement already satisfied: pure-eval in c:\users\malik\desktop\projects\quora-duplicate-question-using-nlp\venv\lib\site-packages (from stack_data->ipython>=7.23.1->ipykernel->jupyter) (0.2.3)
+Collecting fqdn
+  Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+Collecting isoduration
+  Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+Collecting jsonpointer>1.13
+  Using cached jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+Collecting rfc3987-syntax>=1.1.0
+  Downloading rfc3987_syntax-1.1.0-py3-none-any.whl (8.0 kB)
+Collecting uri-template
+  Downloading uri_template-1.3.0-py3-none-any.whl (11 kB)
+Collecting webcolors>=24.6.0
+  Downloading webcolors-24.11.1-py3-none-any.whl (14 kB)
+Collecting cffi>=1.0.1
+  Using cached cffi-1.17.1-cp311-cp311-win_amd64.whl (181 kB)
+Collecting pycparser
+  Using cached pycparser-2.22-py3-none-any.whl (117 kB)
+Collecting lark>=1.2.2
+  Downloading lark-1.2.2-py3-none-any.whl (111 kB)
+     -------------------------------------- 111.0/111.0 kB 6.7 MB/s eta 0:00:00
+Collecting arrow>=0.15.0
+  Downloading arrow-1.3.0-py3-none-any.whl (66 kB)
+     -------------------------------------- 66.4/66.4 kB 597.6 kB/s eta 0:00:00
+Collecting types-python-dateutil>=2.8.10
+  Downloading types_python_dateutil-2.9.0.20250822-py3-none-any.whl (17 kB)
+Installing collected packages: webencodings, widgetsnbextension, websocket-client, webcolors, uri-template, types-python-dateutil, tinycss2, sniffio, send2trash, rfc3986-validator, rfc3339-validator, pyyaml, pywinpty, python-json-logger, pycparser, prometheus-client, pandocfilters, overrides, mistune, markupsafe, lark, jupyterlab_widgets, jupyterlab-pygments, jsonpointer, json5, h11, fqdn, defusedxml, bleach, babel, async-lru, terminado, rfc3987-syntax, jinja2, httpcore, cffi, arrow, anyio, jupyter-server-terminals, isoduration, ipywidgets, httpx, argon2-cffi-bindings, jupyter-console, argon2-cffi, nbclient, jupyter-events, nbconvert, jupyter-server, notebook-shim, jupyterlab-server, jupyter-lsp, jupyterlab, notebook, jupyter
+Successfully installed anyio-4.10.0 argon2-cffi-25.1.0 argon2-cffi-bindings-25.1.0 arrow-1.3.0 async-lru-2.0.5 babel-2.17.0 bleach-6.2.0 cffi-1.17.1 defusedxml-0.7.1 fqdn-1.5.1 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 ipywidgets-8.1.7 isoduration-20.11.0 jinja2-3.1.6 json5-0.12.1 jsonpointer-3.0.0 jupyter-1.1.1 jupyter-console-6.6.3 jupyter-events-0.12.0 jupyter-lsp-2.2.6 jupyter-server-2.17.0 jupyter-server-terminals-0.5.3 jupyterlab-4.4.6 jupyterlab-pygments-0.3.0 jupyterlab-server-2.27.3 jupyterlab_widgets-3.0.15 lark-1.2.2 markupsafe-3.0.2 mistune-3.1.3 nbclient-0.10.2 nbconvert-7.16.6 notebook-7.4.5 notebook-shim-0.2.4 overrides-7.7.0 pandocfilters-1.5.1 prometheus-client-0.22.1 pycparser-2.22 python-json-logger-3.3.0 pywinpty-3.0.0 pyyaml-6.0.2 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 rfc3987-syntax-1.1.0 send2trash-1.8.3 sniffio-1.3.1 terminado-0.18.1 tinycss2-1.4.0 types-python-dateutil-2.9.0.20250822 uri-template-1.3.0 webcolors-24.11.1 webencodings-0.5.1 websocket-client-1.8.0 widgetsnbextension-4.0.14

@@ -5,3 +5,11 @@ scikit-learn
 seaborn
 matplotlib
 xgboost
+beautifulsoup4
+nltk
+distance
+fuzzywuzzy
+plotly
+nbformat
+python-Levenshtein
+streamlit[standard]
